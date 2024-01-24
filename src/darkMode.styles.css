@@ -30,5 +30,5 @@
 .dark-mode-switcher.on .slider {
   transform: translateX(
     24px
-  ); /* Move the slider to the right when dark mode is on */
+  ); 
 }
