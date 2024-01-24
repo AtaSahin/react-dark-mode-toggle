@@ -1,0 +1,34 @@
+/* DarkModeSwitcher.css */
+.dark-mode-switcher {
+  width: 50px;
+  height: 26px;
+  background-color: #ccc;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  cursor: pointer;
+  position: relative;
+}
+
+.dark-mode-switcher.on {
+  background-color: #100229;
+}
+
+.dark-mode-switcher.off {
+  background-color: #ede8e7;
+}
+
+.slider {
+  width: 22px;
+  height: 22px;
+  background-color: #5e24d3;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.dark-mode-switcher.on .slider {
+  transform: translateX(
+    24px
+  ); /* Move the slider to the right when dark mode is on */
+}
